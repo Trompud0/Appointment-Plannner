@@ -1,0 +1,166 @@
+body {
+  background-color: #1c1a1a;
+}
+
+#root {
+  padding: 30px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+nav > a.active {
+  background-color: #e8e6e6;
+  color: #000000;
+}
+
+nav > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e8e6e6;
+  margin-right: 30.5px;
+  text-decoration-line: none;
+}
+
+nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-nav {
+  background-color: #262626;
+  border-radius: 60px;
+  padding: 15px;
+}
+
+#addContactSection {
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+#contactsSection {
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.appointment-nav {
+  background-color: #262626;
+  border-radius: 60px;
+  padding: 15px;
+}
+
+#addAppointmentSection {
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+#appointmentsSection {
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#mainHeader {
+  color: #e8e6e6;
+  padding: 20px 0px;
+  background-color: #262626;
+  border-radius: 10px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #e8e6e6;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+hr {
+  
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  background: #e8e6e6;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  background-color: #d6d6d6;
+}
+
+input[min] {
+  color: #707070;
+}
+
+input,
+select {
+  font-family: "Open Sans", sans-serif;
+  background: #323232;
+  color: #828282;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 7px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input {
+  color: #e8e6e6;
+}
+
+input[type="time"] {
+  color: #707070;
+}
+
+.tile {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.tile.tile-title {
+  font-weight: bold;
+}
+
+.tile-container {
+  margin-bottom: 20px;
+  padding: 7px 9.5px 9px 9.5px;
+  color: #707070;
+}
+
+.tile-container:hover {
+  background-color: #323232;
+  border-radius: 10px;
+}
+
+.tile-title {
+  color: #e8e6e6;
+}

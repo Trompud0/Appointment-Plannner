@@ -1,0 +1,10 @@
+import React from "react";
+
+export const Tile = (props) => {
+  return (
+    <div className="tile-container">
+      <p className="tile-title">{props.name}</p>
+      {Object.values(props.description).map((value, index) => <p className="tile" key={index}>{value}</p>)}
+    </div>
+  );
+};
